@@ -83,10 +83,10 @@ function database() {
     cell4.innerHTML = add2;
     var pin = document.getElementById("pincode").value;
     cell5.innerHTML = pin;
-    if (document.getElementById("gen1").value === true) {
+    if (document.getElementById("gen1").checked === true) {
         var gen1 = document.getElementById("gen1").value;
         cell6.innerHTML = gen1;
-    } else if(document.getElementById("gen2").value === true) {
+    } else if(document.getElementById("gen2").checked === true) {
         var gen2 = document.getElementById("gen2").value;
         cell6.innerHTML = gen2;
     }
