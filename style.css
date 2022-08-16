@@ -36,10 +36,11 @@ button{
     }
 
 th{
+    position:static;
     color: antiquewhite;
     font-weight: bold;
     font-size: 20px;
- padding:15px ;
+ padding:10px ;
     box-sizing: content-box;
     border: 2px solid ;
     background-color: gray;
@@ -48,6 +49,7 @@ th{
     border: none;
 }  
 td{
+    postion:relative;
     color:blue;
     font-weight: bold;
     font-size: 20px;
